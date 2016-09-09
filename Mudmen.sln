@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9972FADE-38C6-4CCF-97AB-8128D3E52851}"
+	ProjectSection(SolutionItems) = preProject
+		Mudmen\default.html = Mudmen\default.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{C0486DD8-1426-4ADB-8381-F44431FF2003}"
+	ProjectSection(SolutionItems) = preProject
+		Mudmen\js\bootstrap.js = Mudmen\js\bootstrap.js
+		Mudmen\js\bootstrap.min.js = Mudmen\js\bootstrap.min.js
+		Mudmen\js\default.js = Mudmen\js\default.js
+		Mudmen\js\jquery-3.1.0.min.js = Mudmen\js\jquery-3.1.0.min.js
+		Mudmen\js\npm.js = Mudmen\js\npm.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{5F3A9A73-08B9-40D2-9C2D-2C3996EF8ACB}"
+	ProjectSection(SolutionItems) = preProject
+		Mudmen\css\bootstrap-theme.min.css = Mudmen\css\bootstrap-theme.min.css
+		Mudmen\semantic-ui\components\button.min.css = Mudmen\semantic-ui\components\button.min.css
+		Mudmen\css\default.css = Mudmen\css\default.css
+		Mudmen\semantic-ui\components\form.min.css = Mudmen\semantic-ui\components\form.min.css
+		Mudmen\semantic-ui\components\label.min.css = Mudmen\semantic-ui\components\label.min.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{52C32174-F20B-4938-AA06-B8C3A2135134}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0486DD8-1426-4ADB-8381-F44431FF2003} = {9972FADE-38C6-4CCF-97AB-8128D3E52851}
+		{5F3A9A73-08B9-40D2-9C2D-2C3996EF8ACB} = {9972FADE-38C6-4CCF-97AB-8128D3E52851}
+		{52C32174-F20B-4938-AA06-B8C3A2135134} = {9972FADE-38C6-4CCF-97AB-8128D3E52851}
+	EndGlobalSection
+EndGlobal

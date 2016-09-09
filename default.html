@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>mudmen</title>
+    <link rel="icon" type="image/png" href="images/mudman.ico">
+
+    <!-- Mudmen references -->
+    <link href="css/default.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="semantic-ui/components/form.css" rel="stylesheet" />
+    <link href="semantic-ui/semantic.css" rel="stylesheet" />
+
+
+
+</head>
+<body>
+    <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+            <div class="cover-container">
+
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <div class="ui dropdown">
+                            <h3 id="Village" class="masthead-brand" hidden>Cover </h3>
+                            <i id="Village" class="dropdown icon"></i>
+                            <div class="menu">
+                                <div class="item" onclick="saveGame()">
+                                    <span class="description">Last Save: 9/3/16 @ 3:15pm</span>
+                                    Save
+                                </div>
+                                <div class="item">Reset</div>
+
+                                </div>
+                            </div>
+                        <nav>
+                            <ul class="nav masthead-nav">
+                                <li style="display:none;" class="active"><img id="mudIcn" src="images/mud.svg" alt="mudman" height="16" width="16" />&nbsp;<span id="mudTxt">0</span></li>
+                                <li style="display:none;" class="active"><img id="mudmanIcn" src="images/mudman.svg" alt="mudman" height="16" width="16" />&nbsp;<span id="mudmanTxt">0</span></li>
+
+     
+                            </ul>
+                            
+                        </nav>
+                        
+                    </div>
+                </div>
+
+                <div class="inner cover">
+                   
+                    <div class="ui labeled input" hidden>
+                        
+                        <input type="text" id="villageInput" onkeypress="checkKey(event)" placeholder="">
+                    </div>
+                    <button id ="mudBtn"class="ui basic button" onclick="add(0)">
+                        Gather Mud
+                    </button>
+                  
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="semantic-ui/semantic.min.js"></script>
+    <script src="js/chance.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/default.js"></script>
+
+
+
+</body>
+</html>
